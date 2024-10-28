@@ -1,7 +1,7 @@
 variable lambda_function_name {
     description     = "Name of lambda function"
     type            = string
-    default         = "luqman-tf-lambda-fn"
+    default         = "lcchua-tf-lambda-fn"
 }
 
 variable lambda_file_name {
@@ -13,17 +13,17 @@ variable lambda_file_name {
 variable "vpc_id" {
   description = "The ID of the VPC"
   type        = string
-  default     = "vpc-02c3cea2893bac90f"
+  default     = "vpc-033addf3a46d7960e" // to be updated
 }
 
 variable "sg_id" {
     description = "The security group id"
     type        = string
-    default     = "sg-05ff8047411fe813c"
+    default     = "sg-05ff8047411fe813c" // to be updated
 }
 
 variable "sns_name" {
     description = "The name of the SNS topic"
     type        = string
-    default     = "luqman-successful-sns-topic"
+    default     = "lcchua-successful-sns-topic"
 }
