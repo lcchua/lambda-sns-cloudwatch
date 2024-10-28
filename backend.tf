@@ -2,8 +2,8 @@
 
 terraform {
   backend "s3" {
-    bucket = "sctp-ce3-tfstate-bucket-1"
-    key    = "lambda-sns-cloudwatch-lcchua.tfstate" #Change the value of this to <your suggested name>.tfstate for  example
+    bucket = "sctp-ce7-tfstate-bucket"
+    key    = "lambda-sns-cloudwatch-lcchua.tfstate" 
     region = "us-east-1"
   }
 }
