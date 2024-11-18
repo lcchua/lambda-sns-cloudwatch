@@ -9,7 +9,7 @@ def lambda_handler(event, context):
     client = boto3.client('sns')
     print("client initialized")
     response = client.publish (
-        TopicArn = "arn:aws:sns:us-east-1:255945442255:luqman-successful-sns-topic",
+        TopicArn = "arn:aws:sns:us-east-1:255945442255:lcchua-successful-sns-topic",
         Message = json.dumps({'default': notification}),
         MessageStructure = 'json'
     )

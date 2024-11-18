@@ -1,13 +1,13 @@
-variable lambda_function_name {
-    description     = "Name of lambda function"
-    type            = string
-    default         = "lcchua-tf-lambda-fn"
+variable "lambda_function_name" {
+  description = "Name of lambda function"
+  type        = string
+  default     = "lcchua-tf-lambda-fn"
 }
 
-variable lambda_file_name {
-    description     = "Name of lambda file to be zipped"
-    type            = string
-    default         = "lambda_function"
+variable "lambda_file_name" {
+  description = "Name of lambda file to be zipped"
+  type        = string
+  default     = "lambda_function"
 }
 
 variable "vpc_id" {
@@ -17,13 +17,13 @@ variable "vpc_id" {
 }
 
 variable "sg_id" {
-    description = "The security group id"
-    type        = string
-    default     = "sg-058abd33ed2592902" // to be updated
+  description = "The security group id"
+  type        = string
+  default     = "sg-058abd33ed2592902" // to be updated
 }
 
 variable "sns_name" {
-    description = "The name of the SNS topic"
-    type        = string
-    default     = "lcchua-successful-sns-topic"
+  description = "The name of the SNS topic"
+  type        = string
+  default     = "lcchua-successful-sns-topic"
 }
