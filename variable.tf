@@ -13,13 +13,13 @@ variable lambda_file_name {
 variable "vpc_id" {
   description = "The ID of the VPC"
   type        = string
-  default     = "vpc-033addf3a46d7960e" // to be updated
+  default     = "vpc-032e09ee4fb24904e" // to be updated
 }
 
 variable "sg_id" {
     description = "The security group id"
     type        = string
-    default     = "sg-05ff8047411fe813c" // to be updated
+    default     = "sg-058abd33ed2592902" // to be updated
 }
 
 variable "sns_name" {
