@@ -2,7 +2,7 @@
 
 terraform {
   backend "s3" {
-    bucket = "sctp-ce7-tfstate-bucket"
+    bucket = "sctp-ce7-tfstate"
     key    = "lambda-sns-cloudwatch-lcchua.tfstate" 
     region = "us-east-1"
   }
